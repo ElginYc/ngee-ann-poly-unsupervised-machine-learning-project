@@ -4,7 +4,7 @@
 
 A Data Analytics project that applies unsupervised machine learning techniques to a dataset containing information on 100 bank customers. Each customer is described by 20 features, including age, housing, years as a resident, car ownership, and other customer-related attributes. The project focuses on analyzing numerical data to discover hidden patterns and identify customer clusters.
 
-- *Bank Data*
+## Project Scope
 
 The project covers:
 
@@ -17,7 +17,7 @@ The project covers:
 The dataset was prepared before applying clustering algorithms. The preprocessing steps include:
 
 - Identifying and handling missing values.
-- Removing categorical features as the clustering models were built using numerical data only.
+- Removing categorical features since the clustering models were built using numerical data only.
 - Selecting relevant numerical features for customer segmentation.
 - Removing the target variable since this is an unsupervised learning problem.
 - Applying feature scaling and normalization to ensure numerical features are on a comparable scale.
