@@ -36,3 +36,13 @@ The project covers:
 
 - K-Means Clustering
 - Hierarchical Clustering (Agglomerative)
+
+## Project Files
+
+| File                                               | Description                                                                                                                                      |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Unsupervised_Machine_Learning_Project.ipynb`      | Jupyter Notebook containing the complete unsupervised machine learning workflow, including data preprocessing, clustering, and model evaluation. |
+| `Unsupervised_Machine_Learning_Project_Report.pdf` | Full project report containing the methodology, analysis, results, and conclusions.                                                              |
+| `Bank_Data.csv`                                    | Bank customer dataset used for clustering analysis.                                                                                              |
+
+
