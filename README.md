@@ -1,2 +1,15 @@
-# ngee-ann-poly-unsupervised-machine-learning-project
-A Data Analytics project applying unsupervised machine learning techniques for customer segmentation and pattern discovery.
+# Ngee Ann Polytechnic Unsupervised Machine Learning Project
+
+## Overview
+
+A Data Analytics project applying unsupervised machine learning techniques on 100 customers' information from a bank. Each customer has a set of features including age, housing, number of years since being a resident, car owned etc. (a total of 20 columns). This  dataset focusing on numerical data and pattern discovery.
+
+- *Bank Data*
+
+The project covers:
+- Machine learning model development
+- Model evaluation
+
+### Dataset
+
+- **Dataset:** 'Bank_data.csv'
