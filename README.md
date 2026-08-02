@@ -13,3 +13,21 @@ The project covers:
 ### Dataset
 
 - **Dataset:** 'Bank_data.csv'
+
+## Tools & Technologies
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+  - K-Means Clustering
+  - Agglomerative Clustering
+  - StandardScaler
+  - Normalization
+  - Silhouette Score
+- SciPy
+  - Hierarchical Clustering
+  - cdist (Distance Calculation)
