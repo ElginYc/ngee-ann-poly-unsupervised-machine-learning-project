@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Data Analytics project applying unsupervised machine learning techniques on 100 customers' information from a bank. Each customer has a set of features including age, housing, number of years since being a resident, car owned etc. (a total of 20 columns). This  dataset focusing on numerical data and pattern discovery.
+A Data Analytics project that applies unsupervised machine learning techniques to a dataset containing information on 100 bank customers. Each customer is described by 20 features, including age, housing, years as a resident, car ownership, and other customer-related attributes. The project focuses on analyzing numerical data to discover hidden patterns and identify customer clusters.
 
 - *Bank Data*
 
@@ -31,3 +31,8 @@ The project covers:
 - SciPy
   - Hierarchical Clustering
   - cdist (Distance Calculation)
+
+## Machine Learning Models
+
+- K-Means Clustering
+- Hierarchical Clustering (Agglomerative)
