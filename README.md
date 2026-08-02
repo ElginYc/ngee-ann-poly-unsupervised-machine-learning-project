@@ -8,9 +8,11 @@ A Data Analytics project that applies unsupervised machine learning techniques t
 
 The project covers:
 
+- Exploratory Data Analysis (EDA) and data exploration
 - Data Preprocessing
-- Machine learning model development
-- Model evaluation
+- Development of clustering models using K-Means and Hierarchical Clustering
+- Model evaluation using Silhouette Score
+- Customer segmentation and pattern discovery
 
 ## Data Preprocessing
 
@@ -58,3 +60,44 @@ The dataset was prepared before applying clustering algorithms. The preprocessin
 | `Bank_Data.csv`                                    | Bank customer dataset used for clustering analysis.                                                                                              |
 
 
+## Model Evaluation & Results
+
+The clustering models were evaluated using the Silhouette Score to measure the quality of cluster separation. A total of 20 clustering models were tested using different feature combinations and clustering configurations.
+
+### Best Performing Models
+
+| Model | Algorithm | Features Used | Clusters | Linkage | Silhouette Score |
+|------|-----------|---------------|----------|---------|------------------|
+| Model 13 | Hierarchical Clustering | Duration in month, Credit amount | 2 | Single | 0.7822 |
+| Model 15 | Hierarchical Clustering | Duration in month, Credit amount, Age in years | 2 | Single | 0.7822 |
+| Model 17 | Hierarchical Clustering | Duration in month, Credit amount | 2 | Complete | 0.7467 |
+| Model 11 | Hierarchical Clustering | Duration in month, Credit amount, Age in years | 2 | Average | 0.7467 |
+
+### Final Model Selection
+
+The selected model was:
+
+- **Algorithm:** Hierarchical Clustering
+- **Linkage:** Single
+- **Features Used:** Duration in month and Credit amount
+- **Number of Clusters:** 2
+- **Silhouette Score:** 0.7822
+
+The model achieved the highest Silhouette Score among all tested models. However, the clustering result showed that one cluster contained almost all observations while the second cluster contained only one observation, indicating the presence of an outlier.
+
+Therefore, additional models were considered based on both Silhouette Score and cluster distribution.
+
+### Final Interpretation
+
+Models with more balanced cluster distributions were also analysed. Hierarchical Clustering using Average and Complete linkage produced more meaningful customer segmentation compared to the highest-scoring Single linkage models.
+
+The results demonstrate that customer patterns can be identified using numerical features, particularly:
+- Duration in month
+- Credit amount
+- Age in years
+
+## Detailed Report
+
+For the complete project methodology, exploratory data analysis (EDA), data preprocessing, model development, evaluation results, visualisations, and conclusions, please refer to:
+
+`Unsupervised_Machine_Learning_Project_Report.pdf`
