@@ -7,8 +7,20 @@ A Data Analytics project that applies unsupervised machine learning techniques t
 - *Bank Data*
 
 The project covers:
+
+- Data Preprocessing
 - Machine learning model development
 - Model evaluation
+
+## Data Preprocessing
+
+The dataset was prepared before applying clustering algorithms. The preprocessing steps include:
+
+- Identifying and handling missing values.
+- Removing categorical features as the clustering models were built using numerical data only.
+- Selecting relevant numerical features for customer segmentation.
+- Removing the target variable since this is an unsupervised learning problem.
+- Applying feature scaling and normalization to ensure numerical features are on a comparable scale.
 
 ### Dataset
 
